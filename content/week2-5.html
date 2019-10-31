@@ -1,6 +1,6 @@
 <!DOCTYPE html><html>
         <head>
-        <title>CMSiMDE</title>
+        <title> s40723247 cad2019 </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
@@ -136,7 +136,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li class='has-children'><a href='WEEK 2 - 9.html'>WEEK 2 - 9</a><ul class='dropdown'><li><a href='week2.html'>week2</a><li><a href='week3.html'>week3</a><li><a href='week4.html'>week4</a><li><a href='week5.html'>week5</a><li><a href='Week6.html'>Week6</a></li>
+                     <li class='has-children'><a href='WEEK.html'>WEEK</a><ul class='dropdown'><li><a href='week2-5.html'>week2-5</a><li><a href='Week6-9.html'>Week6-9</a><li><a href='week10-14.html'>week10-14</a><li><a href='week15-18.html'>week15-18</a></li></ul><li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a></li>
                       </ul>
                 </nav>
               </div>
@@ -147,15 +147,44 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">week5 << <a href='week5.html'>Previous</a> <br /><h1>Week6</h1>
-<p><span>1.到課程網站中解壓縮web_vrep2與V-REP3</span></p>
-<p><span>2.打開V-REP3內的應用程式</span></p>
-<p><span>3.導入web_vrep2的two_wheeler.ttt檔案</span></p>
-<p><span>4.打開web_vrep2內的app.py按下GO</span></p>
-<p><span>5.複製網址打開網頁</span></p>
-<p><span>6.操作車子</span></p>
-<p><span>教學影片</span></p>
-<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/tzNiJQJqU0o" width="560"></iframe></p><br />week5 << <a href='week5.html'>Previous</a> </div>
+    <div id="tipue_search_content">WEEK << <a href='WEEK.html'>Previous</a> <a href='Week6-9.html'>Next</a> >> Week6-9<br /><h1>week2-5</h1>
+<h4><strong>week2</strong></h4>
+<ol>
+<li>在自己的git hub建立新倉儲 cad2019 ，並且到mde.tw下載2019Fall可攜套件.7z</li>
+<li>使用git config --global user.name "user name"與git config --global user.email "<span>user email</span>" 設定自己的名字與email</li>
+<li><span>使用git submodule add新的指令 指令如下 ( git submodule add https://github.com/mdecourse/cmsimde.git cmsimde )</span></li>
+<li><span>輸入指令python -m pip install flask cors</span></li>
+<li><span>開啟近端開始更新內容，更新完成使用一上所使用的 git指令(git status、git pull .....</span><span>)</span></li>
+</ol>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/qdo8tDQ6NRI" width="560"></iframe></span></p>
+<h4>week3</h4>
+<p>1. <span>Y:\portablegit\bin\sh.exe 重新命名為 sh_rename_for_solvespace.exe</span></p>
+<p>2. 輸入<span>指令git clone </span><span>--recurse-submodules</span></p>
+<p><span>3. 在cmakelist內之713及714行(加入#字號)</span></p>
+<p><span>4. 進到<span>cd solvespace&gt;cd extlib&gt;cd libpng&gt;mkdir build&gt;cd build</span></span></p>
+<p><span><span>5. 執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/><span>mingw32-make</span></span></span></p>
+<p><span><span>6. 找<span> libpng.dll.a 更名，並更名名為 libpng_static.a</span></span></span></p>
+<p><span><span>7. 回到 solvespace ,建立 build 後進入 build </span></span></p>
+<p><span><span>8. 執行cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/><span>mingw32-make</span></span></span></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/DJnZyyjAo4w" width="560"></iframe></p>
+<h4>week4</h4>
+<p>補做之前未跟上的進度</p>
+<h4>week5</h4>
+<p>solvespace的基本操作練習</p>
+<p>1.先將<span>solvespace打開</span></p>
+<p><span>2.繪製一個35x35的方形 (快捷鍵D可以定義尺寸)</span></p>
+<p><span>3.點選New group extruding active sketch (快捷鍵Shift+X)</span></p>
+<p><span>4.旁邊小視窗會出現一個in 3D的字樣</span></p>
+<p><span>5.點選草圖然後按下滑鼠中鍵可以旋轉</span></p>
+<p><span>6.成功進入3D之後旁邊小視窗找到color，再旁邊會有一個change那就是可以改顏色的部分</span></p>
+<p><span>7.在color下有個opacity可以更改方塊的透明度</span></p>
+<p><span>8.基本的練習 (測量點到點的距離、隱藏座標、隱藏point的部分)</span></p>
+<p><span></span></p>
+<p>完成圖</p>
+<p><span><img alt="" height="1040" src="./../images/123.PNG" width="1913"/></span></p>
+<p><span>以下是練習影片</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/SuvZlG6l8As" width="560"></iframe></span></p>
+<br />WEEK << <a href='WEEK.html'>Previous</a> <a href='Week6-9.html'>Next</a> >> Week6-9</div>
         
     <!-- footer -->
       <div class="container">
