@@ -363,8 +363,7 @@ vertical: body pane on the botton</t>
 * Week5 - solvespace的基本操作練習
 * Week6 - V-rep 網際雙輪車控制模擬
 * Week7 - 統一網站架構，Solvespace 編譯與繪圖驗證 ，練習繪圖題目
-
-</t>
+* Week8 - webots啟動、blog</t>
 <t tx="leo.20191101150244.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -385,6 +384,9 @@ vertical: body pane on the botton</t>
 [Week6練習影片](https://www.youtube.com/watch?v=tzNiJQJqU0o)
 
 [Week7練習影片](https://www.youtube.com/watch?v=H1rJ8r4ARrQ)
-</t>
+
+[Week8(1)練習影片](https://www.youtube.com/watch?v=YFmI8EIVLC8)
+
+[Week8(2)練習影片](https://www.youtube.com/watch?v=O-m0cIgSw2I)</t>
 </tnodes>
 </leo_file>
