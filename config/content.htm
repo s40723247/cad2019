@@ -83,7 +83,134 @@
 <p>7.啟動</p>
 <p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/O-m0cIgSw2I" width="560"></iframe></strong></p>
 <h2>week10-14</h2>
-<h2>week15-18</h2>
+<p>week12</p>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span style="color: #000000;"><strong>ch3</strong> </span><br/><br/>在本章中，將學習如何在NX 12中創建和編輯草圖。可以直接創建一個<br/>在“建模”應用程序中的平面上繪製草圖。在大多數情況下，建模是從2D草圖開始的，<br/>然後拉伸，旋轉或掃掠草圖以創建實體。許多複雜的形狀是
+否則，可以通過草繪輕鬆地建模非常困難的模型。在本章中，將看到
+草繪的一些概念，然後繼續草繪和建模某些零件。<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><strong><span lang="zh-TW" tabindex="0">3.1概述<br/><br/></span></strong></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">NX 12草圖是一組命名的曲線，這些曲線連接在一個字符串中，掃描後形成實體。的
+草圖表示該零件的外邊界。<br/>曲線在草繪器中的平面上創建。
+首先，這些曲線的繪製沒有任何確切的尺寸。然後，維度
+應用約束和幾何約束以完全約束草圖。<br/>這些將在本章稍後詳細討論。
+繪製完成後，可以使用多種方法來生成3D零件</span><span lang="zh-TW" tabindex="0"><br/></span><span lang="zh-TW" tabindex="0">• 草圖可以旋轉<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><img alt="" height="146" src="/images/擷取.PNG" width="217"/><br/><span>• 草圖可以拉伸<br/><img alt="" height="166" src="/images/2.PNG" width="226"/><br/></span><span>•草圖可以沿參考線進行掃掠<br/><img alt="" height="132" src="/images/3.PNG" width="231"/><br/></span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><br/>從草圖創建的特徵與之關聯，<br/>如果草圖也會更改，特徵也會更改。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><br/>使用草圖創建零件的優點是：
+•用於創建輪廓輪廓的曲線非常靈活，可用於建模
+不尋常的形狀。
+•曲線是參數化的，因此具有關聯性，可以輕鬆更改或刪除它們。
+•如果更改了繪製草圖的平面，則草圖將被更改
+相應地。
+•當您想要控制特徵的輪廓時，草圖非常有用，尤其是當它可能
+將來需要更改。草圖可以快速，輕鬆地進行編輯。<br/><br/><span><strong>3.2草圖環境</strong><br/><br/>在NX 12中，可以使用兩種方法創建草圖。 第一種方法在當前環境和應用。<br/></span>For this</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">➢選擇菜單→插入→草圖<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><img alt="" height="287" src="/images/4.PNG" width="306"/><br/></span></pre>
+<div class="tw-ta-container tw-lfl" id="tw-target-text-container">
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/>在另一種方法中，可以使用<br/><span>➢在主工具欄中選擇草圖</span><br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">無論哪種情況，都會彈出一個對話框詢問
+定義草圖平面。屏幕將顯示草圖選項。可以選擇草圖平面，<br/>草圖繪製方向和類型草圖的平面。<br/>使用“創建草圖”對話框創建草圖時，可以選擇
+通過單擊所示的坐標係可以在其上創建草圖的平面。<br/>這個將突出顯示您選擇的飛機。<br/>選擇的默認平面是XC-YC。<br/>但是，可以選擇在另一平面上繪製草圖。<br/>如果有事先在模型中創建的任何實體特徵，任何平坦表面也可以用作草繪平面</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><span>➢選擇XC-YC飛機並單擊確定</span><br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">將顯示草圖平面，並標記X-Y方向。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">主屏幕將更改為“草繪環境”。 XY平面突出顯示為
+用於草繪的默認平面。這是基本的草圖窗口。還有一個特殊的素描任務
+NX 12中的環境，它在主窗口中顯示所有草圖工具。<br/>用於訪問草圖任務環境。<br/><img alt="" height="144" src="/images/5.PNG" width="141"/><br/><span>➢單擊直接草圖工具欄區域中的更多選項</span><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">➢在草圖任務環境中單擊打開，如下所示<br/><img alt="" height="161" src="/images/6.PNG" width="627"/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">在完成標誌旁邊有三個有用的選項。你可以改變框中的草圖名稱。<br/>下一個是東方素描從而將視圖定向到草圖平面。<br/>如果模型文件是在草繪過程中旋轉，請單擊此圖標以查看
+在平行於屏幕的平面上繪製草圖重新附著將草圖附加到另一個平面上，
+基準平面或路徑，或更改草圖方向。它允許您將草圖重新附加到
+所需的平面，而無需重新創建所有曲線，尺寸和約束。<br/><span><br/><strong>3.3草圖曲線工具欄</strong><br/></span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/>該工具欄包含用於創建常用類型的圖標曲線和样條曲線，編輯，擴展，修剪，
+圓角等。每種類型的曲線都有不同的方法選擇和創建方法。<br/>讓我們討論最多常用選項。<br/><img alt="" height="238" src="/images/7.PNG" width="224"/><br/><span><br/><img alt="" height="25" src="/images/8.PNG" width="32"/>輪廓<br/></span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">此選項會根據您在彈出工具欄中選擇的圖標創建直線和圓弧。<br/>您可以使用坐標系或輸入長度和線的角度如下圖所示。<br/><img alt="" height="117" src="/images/9.PNG" width="611"/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><img alt="" height="39" src="/images/10.PNG" width="31"/>線<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">此選項將選擇性地僅創建直線。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><img alt="" height="31" src="/images/11.PNG" width="25"/>弧<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">此選項通過兩種方法之一創建弧。<br/>第一個選項以三個順序創建弧點如下圖所示。<br/><img alt="" height="107" src="/images/12.PNG" width="601"/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>第二個選項創建具有中心點，半徑和後掠角或按中心點的弧，帶有起點和終點圖示如下。<br/><img alt="" height="106" src="/images/13.PNG" width="426"/><br/><br/><img alt="" height="29" src="/images/14.PNG" width="30"/>圓<br/></span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">創建圓類似於創建圓弧，不同之處在於，圓是封閉的。<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><img alt="" height="35" src="/images/15.PNG" width="38"/>快速修剪<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">這將從曲線的交點修剪延伸的曲線。該選項顯示為如果每個實體與另一個實體相交，<br/>則將它們拆分，並刪除</span><span lang="zh-TW" tabindex="0">已選擇</span><span lang="zh-TW" tabindex="0">該部分。</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><img alt="" height="35" src="/images/16.PNG" width="29"/>Studio Spline<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">可以使用極點或通過點創建基本樣條曲線（B樣條曲線和Bezier）。
+所需的曲線度。樣條線將在第七章中詳細討論（自由格式特徵）。<br/><br/><img alt="" height="305" src="/images/17.PNG" width="423"/><br/><span><br/><strong>3.4約束工具欄</strong></span><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">所有曲線都是通過拾取點創建的。例如，一條直線有兩個點。
+在2D環境中，任何點都有兩個自由度，一個沿X，另一個沿Y
+軸。點的數量取決於要創建的曲線的類型。因此，曲線實體
+自由度數是其包含的點數的兩倍。<br/>這些程度可以通過創建具有固定實體的約束來消除自由度。<br/>實際上，建議通過刪除以下所有自由度（使草圖完全受約束）
+實體直接或間接地歸屬於固定實體。<br/>可以通過賦予尺寸或幾何特性，如平行度，垂直度等。<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">在NX 12中，智能約束是自動應用的，即自動尺寸或幾何
+約束由NX 12解釋。您可以通過單擊“連續自動”來關閉此選項。
+尺寸如下圖所示。以下段落顯示瞭如何手動應用約束。<br/><br/><img alt="" height="242" src="/images/18.PNG" width="631"/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><img alt="" height="39" src="/images/19.PNG" width="44"/>尺寸約束</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">通過給尺寸賦予固定實體（例如軸）的尺寸，可以消除自由度，
+平面，坐標系或模型中創建的任何現有實體幾何。<br/>這些尺寸可以是線性，徑向，角度等。<br/>可以隨時編輯尺寸值在草圖繪製過程中，雙擊尺寸。<br/><img alt="" height="316" src="/images/20.PNG" width="633"/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><img alt="" height="29" src="/images/21.PNG" width="32"/>幾何約束<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">除了尺寸約束外，還可以給出一些幾何約束來消除自由程度。<br/>它們包括平行，垂直，共線，同心，水平，垂直，等長等。<br/>該軟件具有查找以下可能約束的能力所選實體。<br/>例如，將約束應用到下圖中的行上平行於矩形的左側（該線最初與矩形成一定角度）。<br/><img alt="" height="328" src="/images/22.PNG" width="640"/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<div class="tw-ta-container tw-lfl" id="tw-target-text-container">
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><img alt="" height="38" src="/images/23.PNG" width="43"/>顯示草圖約束</span></pre>
+</div>
+<div class="tw-ta-container tw-nfl" id="z6maec"><span>單擊此圖標將顯示與該特定草圖中的實體相關的所有選項。 </span></div>
+<div class="tw-ta-container tw-nfl"><span></span></div>
+<div class="tw-ta-container tw-nfl"><span><img alt="" height="36" src="/images/24.PNG" width="36"/>顯示/刪除約束</span></div>
+<div class="tw-ta-container tw-nfl">
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">該窗口列出了與所選任何實體相關的所有約束和約束類型。
+可以刪除任何列出的約束或更改約束的順序。
+狀態行中顯示不受約束的自由度數。<br/>所有應通過遵循約束模型來應用約束來消除這些約束。</span></pre>
+</div>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><strong>3.5範例<br/><br/></strong>3.5-1<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">➢</span><span lang="zh-TW" tabindex="0">繪製以下草圖<br/><br/><img alt="" height="431" src="/images/25.PNG" width="374"/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">➢在Z方向上將該草圖拉伸60 mm</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/><img alt="" height="279" src="/images/26.PNG" width="637"/><br/><br/>3.5-2<br/><br/><span>➢按照如下所示應用尺寸約束<br/><img alt="" height="266" src="/images/27.PNG" width="390"/><img alt="" height="540" src="/images/28.PNG" width="231"/><br/><br/><br/><br/></span></span></pre>
+<ol>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">選擇所有尺寸。</span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">右鍵單擊並隱藏尺寸 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">選擇菜單→編輯→移動對像或選擇 從功能區欄中移動曲線 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">選擇所有曲線。您應該看到有四個物體 在選擇對像中選擇 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">指定運動為距離 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">在指定向量中選擇YC方向 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">輸入距離為0.5英寸 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">在結果對話框中，確保單擊 複製原始單選按鈕 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">點擊確定 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">然後使用 基本曲線以完成草圖</span></li>
+</ol>
+<p><span lang="zh-TW" tabindex="0"><img alt="" height="167" src="/images/29.PNG" width="551"/></span></p>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"> </span></pre>
+<div class="tw-ta-container tw-lfl" id="tw-target-text-container">
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">草圖已準備好後:<br/></span></pre>
+<ol>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">選擇編輯→移動對像或從功能區欄中選擇移動曲線</span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">選擇外部曲線。確保選擇曲線的所有四個部分 </span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">在Y方向上將下部曲線移動-1.5英寸。</span><span lang="zh-TW" tabindex="0">這一樣在YC負方向上1.5英寸</span></li>
+</ol>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>這將在套管外部形成曲線。<br/><br/></span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">➢使用直線將此曲線與套管的內部曲線連接如圖所示，它將形成一條閉合鏈曲線。<br/><img alt="" height="174" src="/images/30.PNG" width="461"/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><br/>現在，將在較小的一側創建套管外部所需的曲線，這將形成凸緣部分。<br/><br/></span></pre>
+<ol>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><span>選擇編輯→移動對象 <br/></span></span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>選擇外線，如下圖所示</span></span><span lang="zh-TW" tabindex="0"><span></span></span></li>
+</ol>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span><img alt="" height="317" src="/images/31.PNG" width="399"/><br/></span></span></pre>
+<ol>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">在XC方向上將下部曲線移動-0.5英寸。<br/>這一樣在XC負方向上0.5英寸<br/><span></span></span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>使用直線將兩條線連接起來，如右圖所示<img alt="" height="215" src="/images/32.PNG" width="126"/></span><br/><span></span></span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>單擊完成標誌 <br/></span></span></li>
+<li class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span>保存並關閉文件</span><br/></span></li>
+</ol>
+<p><strong><span lang="zh-TW" tabindex="0">3.6 練習</span></strong></p>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">3.6.1 圓形底座</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><span><br/><img alt="" height="252" src="/images/33.PNG" width="620"/><br/></span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">3.6.2固定器的草圖<br/><img alt="" height="324" src="/images/34.PNG" width="506"/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><span> </span></span></pre>
+</div>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"></span></pre>
+</div><h2>week15-18</h2>
 <h1>note</h1>
 <h2>inventor</h2>
 <p><img alt="" height="270" src="/images/inven.png" width="270"/></p>
