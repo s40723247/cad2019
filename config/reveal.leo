@@ -39,6 +39,9 @@
 <v t="leo.20191220145318.1"><vh>Week</vh>
 <v t="leo.20191220145318.2"><vh>Week2-9</vh></v>
 </v>
+<v t="leo.20191220153008.1"><vh>Week</vh>
+<v t="leo.20191220153008.2"><vh>Week2-9</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -435,6 +438,19 @@ vertical: body pane on the botton</t>
 <t tx="leo.20191220145318.2">WEBOT TUTORIAL 2
 
 [TUTORIAL 2練習影片](https://www.youtube.com/watch?v=XhFuLoPfNMQ)
+</t>
+<t tx="leo.20191220153008.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220153008.2">Week15 學員個人學習成果回報
+
+[影片](https://www.youtube.com/watch?v=cMUB-iczaNg&amp;feature=youtu.be)
 </t>
 </tnodes>
 </leo_file>
