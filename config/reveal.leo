@@ -30,6 +30,15 @@
 <v t="leo.20191101150244.1"><vh>簡介</vh>
 <v t="leo.20191101150244.2"><vh>個人網站與影片</vh></v>
 </v>
+<v t="leo.20191220144530.1"><vh>Week</vh>
+<v t="leo.20191220144530.2"><vh>Week2-9</vh></v>
+</v>
+<v t="leo.20191220145151.1"><vh>Week</vh>
+<v t="leo.20191220145151.2"><vh>Week2-9</vh></v>
+</v>
+<v t="leo.20191220145318.1"><vh>Week</vh>
+<v t="leo.20191220145318.2"><vh>Week2-9</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -343,7 +352,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191101144946.2">## 個人網站與影片
 
-[YouTube](https://www.youtube.com/channel/UChe-JoQESEYiu2BQ69DIrvA)
+[YouTube頻道](https://www.youtube.com/channel/UChe-JoQESEYiu2BQ69DIrvA)
 
 [個人網站](https://s40723247.github.io/cad2019/content/index.html)
 </t>
@@ -388,5 +397,44 @@ vertical: body pane on the botton</t>
 [Week8(1)練習影片](https://www.youtube.com/watch?v=YFmI8EIVLC8)
 
 [Week8(2)練習影片](https://www.youtube.com/watch?v=O-m0cIgSw2I)</t>
+<t tx="leo.20191220144530.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220144530.2"># Week10-14
+* Week10 - 組長建立分組網站並且請組員加入
+* Week12 - 整理電子書內容並且練習 
+* Week13 - 練習WEBOT TUTORIAL</t>
+<t tx="leo.20191220145151.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220145151.2">WEBOT TUTORIAL 1
+
+[TUTORIAL 1練習影片](https://www.youtube.com/watch?v=UJ-0MaUuEzc&amp;t=7s)
+</t>
+<t tx="leo.20191220145318.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220145318.2">WEBOT TUTORIAL 2
+
+[TUTORIAL 2練習影片](https://www.youtube.com/watch?v=XhFuLoPfNMQ)
+</t>
 </tnodes>
 </leo_file>
