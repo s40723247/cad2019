@@ -241,7 +241,54 @@ NX 12中的環境，它在主窗口中顯示所有草圖工具。<br/>用於訪�
 <p><strong>WEEK16</strong></p>
 <p><b>心得:</b></p>
 <p><b>現在到了第16週了，也慢慢接近尾聲，作業遠遠比以前的難很多，自己有些跟不上，也做不太好，所以只能照著同學的影片，一步一步慢慢來，雖然自己的程度不是很好，但是其實一步一步做後完成的那個成就感也是有的，所以希望之後能夠越來越好。</b></p>
-<p><b><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/47VepTkI5do" width="560"></iframe></b></p><h1>note</h1>
+<p><b><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/47VepTkI5do" width="560"></iframe></b></p>
+<p><b>WEEK17  <span>協同任務</span></b></p>
+<p><b>任務一: 分配到  Building a clean model tutorial 前半段  <span>Building the visible shapes 的部分</span></b></p>
+<p><b> </b></p>
+<p><b>notice how the convex hull doesn't help us at this stage. We decide to use the mesh decimation function first, and run the function twice in order to divide the number of triangles by a total of 50. Once that is done, we extract the inside of the simplified shape and discard it. We end-up with a mesh containing a total of 2'660 triangles (the original imported mesh contained more than 136'000 triangles!). The number of triangles/vertices a shape contains can be seen in the shape geometry dialog. 2'660 triangles are extremely few triangles for a whole robot model, and the visual appearance might suffer a little bit from it.</b></p>
+<p><b>翻譯:</b></p>
+<p><b> </b><b>這個階段凸殼對我們沒有幫助。 決定首先用網格抽取功能，然後運行兩次該功能，以將三角形的數量總共除以50。完成後，提取簡化形狀的內部並將其丟棄。 最終得到的網格總共包含2'660個三角形（原始導入的網格包含了136'000個三角形！）。 形狀包含的三角形/頂點的數量可以在形狀幾何對話框中看到。 對於整個機器人模型，2'660三角形是極少的三角形，因此視覺外觀可能會因此受到影響。</b></p>
+<p><b>At this stage we can start to divide the robot into separate links (remember, we currently have only a single shape for the whole robot). You can do this in two different ways:</b></p>
+<p><b>翻譯:</b></p>
+<p><b>在這一階段，可以開始將機器人劃分為單獨的鏈接（目前整個機器人只有一個形狀）。 可以通過兩種不同的方式執行此操作：</b></p>
+<p><b>1. Automatic mesh division: this function, which was already described in previous section, will inspect the shape and generate a new shape for all elements that are not linked together via a common edge. This does not always work, but is always worth a try. The function can be accessed with [Menu bar --&gt; Edit --&gt; Grouping/merging --&gt; Divide selected shapes].</b></p>
+<p>翻譯:</p>
+<p>1.自動網格劃分：此功能已在上一節中進行了描述，它將檢查形狀並為未通過公共邊鏈接在一起的所有元素生成新形狀。 這並不總是有效，但是值得嘗試的。 可以通過[菜單欄-&gt;編輯-&gt;分組/合併-&gt;分割所選形狀]叫出該功能。</p>
+<p>2.Manual mesh division: via the the triangle edit mode, you can manually select the triangles than logically belong together, then click Extract shape. This will generate a new shape in the scene. Delete the selected triangles after that operation.</p>
+<p><span>翻譯:</span></p>
+<p><span>2.手動網格劃分：通過三角形編輯模式，您可以手動選擇不屬於邏輯的三角形，然後點擊“提取形狀”。 這將在場景中生成新形狀。 完成該操作後，刪除選定的三角形。</span></p>
+<p><span>In the case of our mesh, method 1 worked fine:</span></p>
+<p><span>翻譯:</span></p>
+<p><span>對於我們的網格，方法1可以正常工作：</span></p>
+<p><span><img alt="" height="312" src="/images/modelTut5.jpg" width="640"/></span></p>
+<p><span>                                                                         [Divided mesh]</span></p>
+<p>Now, we could further refine/simplify individual shapes. Sometimes also, a shape might look better if its convex hull is used instead. Othertimes, you will have to use several of above's described techniques iteratively, in order to obtain the desired result. Take for instance following mesh:</p>
+<p><span>翻譯:</span></p>
+<p><span>現在，我們可以進一步細化/簡化單個形狀。 有時，如果改用凸殼，形狀可能會看起來更好。 有時，您將不得不反複使用上述幾種技術，以獲得所需的結果。 以以下網格為例：</span></p>
+<p><span><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut6.jpg"/></span></p>
+<p class="imageLabel">[Imported mesh]</p>
+<p class="imageLabel">The problem with above's shape is that we cannot simplify it nicely, because of the holes it contains. where we can extract individual elements that logically belong to the same convex sub-entity. This process can take several iterations: we first extract 3 approximate convex elements. For now, we ignore the triangles that are part of the two holes. While editing a shape in the shape edit mode, it can be convenient to switch the visibility layers, in order to see what is covered by other scene items.</p>
+<p class="imageLabel">翻譯:</p>
+<p class="imageLabel">上面形狀的問題是，由於其中包含孔，我們無法很好地簡化它。在這裡我們可以提取邏輯上屬於同一個凸子實體的單個元素。此過程可能需要進行多次迭代：我們首先提取3個近似凸元素。 現在，我們忽略作為兩個孔的一部分的三角形。 在形狀編輯模式下編輯形狀時，可以方便地切換可見性圖層，以查看其他場景項所覆蓋的內容。</p>
+<p class="imageLabel"><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut7.jpg"/></p>
+<p class="imageLabel"><span>Now we can erase the triangles that are part of the holes. Finally, we extract the convex hull individually for the 3 shapes, then merge them back together with [Menu bar --&gt; Edit --&gt; Grouping/Merging --&gt; merge selected shapes]:</span></p>
+<p class="imageLabel"><span>翻譯:</span></p>
+<p class="imageLabel">現在我們可以除作為孔的一部分的三角形。 最後，我們分別提取3種形狀的凸包，然後將其與[菜單欄-&gt;編輯-&gt;分組/合併-&gt;合併所選形狀]合併在一起：</p>
+<p class="imageLabel"><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut8.jpg"/></p>
+<p class="imageLabel">We  can enable/disable edge display for each shape. We can also specify an angle that will be taken into account for the edge display.Those parameters, and a few others such as the shape color, can be adjusted in the shape properties.  In this tutorial we have only dealt with simple shapes up to now: a simple shape has a single set of visual attributes (i.e. one color, one shading angle, etc.). If you merge two shapes, then the result will be a simple shape.</p>
+<p class="imageLabel">翻譯:</p>
+<p class="imageLabel">我們可以啟用/禁用每種形狀的邊緣顯示。我們還可以指定邊緣顯示時要考慮的角度。這些參數以及其他一些參數（例如形狀顏色）可以在形狀屬性中進行調整，在本教程中，我們僅處理簡單的形狀：簡單的形狀具有一組視覺屬性（即一種顏色，一個陰影角度等），如果合併兩個形狀，則結果將是一個簡單的形狀。</p>
+<p class="imageLabel">In next step, we can merge elements that logically belong together. Then we change the visual attributes of the various elements.Then, we select all the shapes that have the same visual attributes, then control-select the shape that was already adjusted</p>
+<p class="imageLabel">翻譯:</p>
+<p class="imageLabel">在下一步中，我們可以合併邏輯上屬於一起的元素，然後，我們更改各種元素的視覺屬性。再來，我們選擇所有具有相同視覺屬性的形狀，然後控制選擇已調整的形狀。</p>
+<p class="imageLabel"><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut9.jpg"/></p>
+<p class="imageLabel">Now we can group the shapes that are part of the same link with [Menu bar --&gt; Edit --&gt; Grouping/merging -&gt; Group selected shapes]. We end up with 7 shapes: the base of the robot (or base of the robot's hierarchy tree), and 6 mobile links.</p>
+<p class="imageLabel">翻譯:</p>
+<p class="imageLabel">現在，我們可以使用[菜單欄-&gt;編輯-&gt;分組/合併-&gt;分組所選形狀]對屬於同一鏈接的形狀進行分組。我們最終得到7個形狀：機器人的基礎（或機器人的層次結構樹的基礎）和6個移動鏈接。</p>
+<p class="imageLabel"><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut10.jpg"/></p>
+<p class="imageLabel">When a shape is created or modified, CoppeliaSim will automatically set its reference frame position and orientation. A shape's reference frame will always be positioned at the shape's geometric center. The frame orientation will be selected so that the shape's bounding box remains as small as possible.</p>
+<p class="imageLabel">翻譯:</p>
+<p class="imageLabel">創建或修改形狀時，CoppeliaSim將自動設置其參考框架的位置和方向。 形狀的參考框架將始終位於形狀的幾何中心。 將選擇框架方向，以便形狀的邊界框保持盡可能小。</p><h1>note</h1>
 <h2>inventor</h2>
 <p><img alt="" height="270" src="/images/inven.png" width="270"/></p>
 <p><span>是美國<span style="color: #ff0000;">AutoDesk</span>公司推出的一款三維可視化實體模擬軟件<span style="color: #ff0000;">Autodesk Inventor Professional</span>（AIP），目前已推出最新版本AIP2019。同時還推出了iphone版本，在</span><a data-lemmaid="9970575" href="https://baike.baidu.com/item/app%20store/9970575" target="_blank"><span><span>app store</span></span></a><span><span>有售。</span><span>Autodesk Inventor Professional包括Autodesk Inventor三維設計軟件；基於AutoCAD平台開發的二維機械製圖和詳圖軟件AutoCAD Mechanical；還加入了用於纜線和束線設計、管道設計及PCB IDF文件輸入的專業功能模塊，並加入了由業界領先的ANSYS技術支持的<span>FEA</span>功能，可以直接在Autodesk Inventor軟件中進行應力分析。</span><span>在此基礎上，集成的數據管理軟件Autodesk Vault-用於安全地管理進展中的設計數據。</span></span></p>
