@@ -51,6 +51,9 @@
 <v t="leo.20200103124033.1"><vh>Week</vh>
 <v t="leo.20200103124033.2"><vh>Week2-9</vh></v>
 </v>
+<v t="leo.20200103153825.1"><vh>Week</vh>
+<v t="leo.20200103153825.2"><vh>Week2-9</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -504,6 +507,22 @@ vertical: body pane on the botton</t>
 現在到了第16週了，也慢慢接近尾聲，作業遠遠比以前的難很多，自己有些跟不上，也做不太好，所以只能照著同學的影片，一步一步慢慢來，雖然自己的程度不是很好，但是其實一步一步做後完成的那個成就感也是有的，所以希望之後能夠越來越好。
 
 [影片](https://www.youtube.com/watch?v=47VepTkI5do)
+</t>
+<t tx="leo.20200103153825.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200103153825.2">Week17 越野車零組件設計繪圖考試 
+
+心得:
+這次的任務比之前在更難了，要將原本車身與主連桿所採用的馬達鎖定設計, 改為機械阻尼設計，這個我真的不怎麼會，只能先把簡單的部分先做一做，把該拿的分數拿到，總比放棄好。希望能夠越來越好 !
+
+[影片](https://www.youtube.com/watch?v=79gmsYUKfN4)
 </t>
 </tnodes>
 </leo_file>
