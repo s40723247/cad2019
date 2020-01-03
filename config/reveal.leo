@@ -472,7 +472,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200103123921.2">WEBOT TUTORIAL 2
+<t tx="leo.20200103123921.2">WEBOT TUTORIAL 3
 
 [TUTORIAL 3練習影片](https://www.youtube.com/watch?v=upb6Gk6Kg5s&amp;t=27s)
 </t>
@@ -485,7 +485,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20200103124000.2">WEBOT TUTORIAL 2
+<t tx="leo.20200103124000.2">WEBOT TUTORIAL 4
 
 [TUTORIAL 4練習影片](https://www.youtube.com/watch?v=zlStCFUmFnI&amp;t=1s)
 </t>
