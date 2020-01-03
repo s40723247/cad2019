@@ -39,8 +39,17 @@
 <v t="leo.20191220145318.1"><vh>Week</vh>
 <v t="leo.20191220145318.2"><vh>Week2-9</vh></v>
 </v>
+<v t="leo.20200103123921.1"><vh>Week</vh>
+<v t="leo.20200103123921.2"><vh>Week2-9</vh></v>
+</v>
+<v t="leo.20200103124000.1"><vh>Week</vh>
+<v t="leo.20200103124000.2"><vh>Week2-9</vh></v>
+</v>
 <v t="leo.20191220153008.1"><vh>Week</vh>
 <v t="leo.20191220153008.2"><vh>Week2-9</vh></v>
+</v>
+<v t="leo.20200103124033.1"><vh>Week</vh>
+<v t="leo.20200103124033.2"><vh>Week2-9</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -450,7 +459,51 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191220153008.2">Week15 學員個人學習成果回報
 
+心得˙: 期中考過後開始了分組的協同，並且組長也開始分配了分組網站的內容給大家，我被分配到的是proe的起源以及NX12電子書CH3的彙整等等.. ，協同分組網站之餘還要練習webot tutorial的內容，雖然自己很不會使用webot，但是參考了組長及其他同學的影片後，一步一步地慢慢做出來，其實還蠻有成就感的 ! 希望之後能夠再更好。
+
 [影片](https://www.youtube.com/watch?v=cMUB-iczaNg&amp;feature=youtu.be)
+</t>
+<t tx="leo.20200103123921.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200103123921.2">WEBOT TUTORIAL 2
+
+[TUTORIAL 3練習影片](https://www.youtube.com/watch?v=upb6Gk6Kg5s&amp;t=27s)
+</t>
+<t tx="leo.20200103124000.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200103124000.2">WEBOT TUTORIAL 2
+
+[TUTORIAL 4練習影片](https://www.youtube.com/watch?v=zlStCFUmFnI&amp;t=1s)
+</t>
+<t tx="leo.20200103124033.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200103124033.2">Week16 越野車零組件設計繪圖查驗
+
+心得:
+現在到了第16週了，也慢慢接近尾聲，作業遠遠比以前的難很多，自己有些跟不上，也做不太好，所以只能照著同學的影片，一步一步慢慢來，雖然自己的程度不是很好，但是其實一步一步做後完成的那個成就感也是有的，所以希望之後能夠越來越好。
+
+[影片](https://www.youtube.com/watch?v=47VepTkI5do)
 </t>
 </tnodes>
 </leo_file>
